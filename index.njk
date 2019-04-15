@@ -1,0 +1,13 @@
+---
+layout: layouts/home.njk
+tags:
+  - nav
+navtitle: Hem
+---
+
+<h1>De senaste tre blogginläggen</h1>
+
+{% set postslist = collections.posts | head(-3) %}
+{% include "postslist.njk" %}
+
+<p>Alla blogginlägg hittar du i <a href="{{ '/posts/' | url }}">arkivet</a>.</p>

@@ -1,0 +1,12 @@
+---
+layout: layouts/home.njk
+tags:
+  - nav
+navtitle: Arkiv
+permalink: /posts/
+---
+
+<h1>Alla tidigare blogginlägg</h1>
+
+{% set postslist = collections.posts %}
+{% include "postslist.njk" %}

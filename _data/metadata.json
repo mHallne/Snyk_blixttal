@@ -1,0 +1,16 @@
+{
+  "title": "Mina favorit-superhjältar",
+  "url": "https://myurl.com/",
+  "description": "Här samlar jag alla mina favvo-superhjältar",
+  "feed": {
+    "subtitle": "Här samlar jag alla mina favvo-superhjältar",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "url": "https://myurl.com/feed/feed.xml",
+    "id": "https://myurl.com/"
+  },
+  "author": {
+    "name": "Micke",
+    "email": "micke@hallne.eu"
+  }
+}
