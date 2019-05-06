@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-AXIOS-174505:
+    - '@11ty/eleventy-plugin-inclusive-language > @11ty/eleventy > browser-sync > localtunnel > axios':
+        patched: '2019-05-06T05:22:34.852Z'
+    - eleventy-plugin-respimg > @11ty/eleventy > browser-sync > localtunnel > axios:
+        patched: '2019-05-06T05:22:34.852Z'
