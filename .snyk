@@ -1,0 +1,28 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - eleventy-plugin-toc > cheerio > lodash:
+        patched: '2020-05-01T05:23:22.007Z'
+    - eleventy-plugin-typeset > typeset > jshint > lodash:
+        patched: '2020-05-01T05:23:22.007Z'
+    - '@11ty/eleventy-plugin-inclusive-language > @11ty/eleventy > browser-sync > easy-extender > lodash':
+        patched: '2020-05-01T05:23:22.007Z'
+    - eleventy-plugin-respimg > @11ty/eleventy > browser-sync > easy-extender > lodash:
+        patched: '2020-05-01T05:23:22.007Z'
+    - eleventy-plugin-typeset > typeset > mocha > yargs-unparser > lodash:
+        patched: '2020-05-01T05:23:22.007Z'
+    - '@11ty/eleventy-plugin-inclusive-language > @11ty/eleventy > pug > pug-code-gen > constantinople > babel-types > lodash':
+        patched: '2020-05-01T05:23:22.007Z'
+    - eleventy-plugin-respimg > @11ty/eleventy > pug > pug-code-gen > constantinople > babel-types > lodash:
+        patched: '2020-05-01T05:23:22.007Z'
+    - '@11ty/eleventy-plugin-inclusive-language > @11ty/eleventy > pug > pug-filters > constantinople > babel-types > lodash':
+        patched: '2020-05-01T05:23:22.007Z'
+    - eleventy-plugin-respimg > @11ty/eleventy > pug > pug-filters > constantinople > babel-types > lodash:
+        patched: '2020-05-01T05:23:22.007Z'
+    - '@11ty/eleventy-plugin-inclusive-language > @11ty/eleventy > pug > pug-code-gen > pug-attrs > constantinople > babel-types > lodash':
+        patched: '2020-05-01T05:23:22.007Z'
+    - eleventy-plugin-respimg > @11ty/eleventy > pug > pug-code-gen > pug-attrs > constantinople > babel-types > lodash:
+        patched: '2020-05-01T05:23:22.007Z'
